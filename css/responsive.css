@@ -1,0 +1,279 @@
+@media screen and (min-width: 1900px) {
+
+	.container {
+		max-width: 1540px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .container {
+        max-width: 1300px;
+    }
+
+    section.gcf ul.sol-list li {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 1400px) { 
+    .container {
+        max-width: 1200px;
+    }
+    
+    header ul.sewa-navigation li a.sewa-nav {
+        font-size: 14px;
+    }
+
+    header .logo img {
+        width: 84px;
+    }
+    
+
+    header .logo p {
+        font-size: 12px;
+    }
+
+    .banner .banner-text {
+        padding: 90px 0 50px 0;
+    }
+
+    .banner .banner-text::after {
+        transform: translate(-50%, -70%);
+        font-size: 300px;
+    }
+
+    .portfolio .b-sm .bsm-im .bsm-half {
+        height: 250px;
+    }
+    
+    .portfolio .big-img {
+        margin-top: 40px;
+        height: 500px;
+    }
+
+    .portfolio .b-sm .bsm-im:first-child {
+        margin-top: 30px;
+        height: 500px;
+    }
+
+    section.products .prd-wrapper .pr-sing p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    section.products .prd-wrapper .pr-sing p {
+        height: 45px;
+    }
+
+    section.clients .swiper-container .swiper-wrapper .swiper-slide {
+        height: 162px;
+    }
+
+    section.clients .client-slider {
+        height: 360px;
+    }
+
+    section.products .prd-wrapper .pr-sing h6 {
+        font-size: 18px;
+    }
+
+    section.gcf ul.serv-list li h3 {
+        font-size: 87px;
+    }
+
+    section.gcf ul.sol-list li {
+        font-size: 20px;
+    }
+
+    footer .fo-right .frf .frf-list ul li a ,footer .fo-right .frf .frf-list ul li  {
+        font-size: 16px;
+    }
+
+    footer .footer-logo img {
+        width: 130px;
+    }
+
+    footer .fcr {
+        margin-left: 40px;
+    }
+
+    section.gcf ul.serv-list::before {
+        left: 34%;
+        
+    }
+
+    section.gcf ul.serv-list::after {
+        right: 30%;
+    }
+
+    .inner-banner .ibt {
+        margin-top: 50px;
+    }
+
+    section.about .abt-text {
+        width: 90%; 
+    }
+
+    section.about .abt-text img {
+        width: 100%;
+    }
+
+    section.about .abt-img img {
+        width: 85%;
+    }
+
+    .inner-banner .ibi img {
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    section.gcf ul.serv-list li h3 {
+        font-size: 77px;
+    }
+
+    section.gcf ul.sol-list li {
+        font-size: 14px;
+    }
+    footer .fo-right .frf .frf-list ul li i {
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
+    }
+
+}
+
+
+@media screen and (max-width: 800px) {
+    section.gcf ul.serv-list li {
+        margin: 0 30px;
+    }
+
+
+}
+
+@media screen and (max-width: 730px) {  
+
+    ul.serv-list {
+        display: block !important;
+    }
+
+    section.gcf ul.serv-list li {
+        margin: 70px 0px;
+    }
+
+    section.gcf ul.serv-list li::after {
+        right: 50%;
+        transform: rotate(90deg) translate(35%,20%);
+        bottom: -110px;
+    }
+
+    section.gcf ul.sol-list {
+        display: none;
+    }
+
+    footer {
+        margin: 10px 10px 0 10px;
+    }
+
+    .fo-right {
+        margin-top: 40px;
+    }
+
+    .frt {
+        text-align: center;
+    }
+
+    footer .fo-right .frf .frf-list ul {
+        flex-wrap: wrap;
+    }
+
+    footer .fo-right .frf .frf-list ul li {
+        flex: auto;
+        margin: 10px 0;
+    }
+
+    
+
+
+}
+
+
+
+@media screen and (max-width: 480px) { 
+
+    p {
+        font-weight: 300 ;
+    }
+
+    section.about p {
+        font-weight: 300;
+    }
+
+    section.about p {
+        width: 90%;
+    }
+
+    section.products .prd-wrapper .pr-sing h6 {
+        font-size: 18px;
+        height: 40px;
+        text-align: center;
+    }
+
+    section.products .prd-wrapper .pr-sing p {
+        display: none;
+    }
+
+    section.products .vw-btn a {
+        padding: 10px 25px;
+        font-size: 15px;
+    }
+
+
+
+    footer .fo-right .frn ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .fcr span {
+         display: block;
+         margin-top: 10px;
+    }
+
+    section.gcf ul.serv-list::before {
+        top: 32%;
+        transform: rotate(90deg);
+        left: 43%;
+    }
+
+    section.gcf ul.serv-list::after {
+        bottom: 7%;
+        transform: rotate(90deg);
+        right: 63%;
+    }
+
+    footer .fo-right .frn ul li {
+        padding: 10px;
+    }
+
+    footer .fo-right .frf .frf-list ul {
+        display: block;
+    }
+
+    p.mb-view {
+        display: block !important;
+    }
+
+}
+
+
+@media screen and (max-width: 375px) { 
+
+
+
+
+}
